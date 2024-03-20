@@ -1,5 +1,17 @@
-h1{
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 80px;
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 80px;
+}
+#primer-titulo {
+  color: #7af0f2;
+}
+#parrafo2 {
+  color: #58cc02;
+}
+.titulo {
+  color: #e5a259;
+}
+.parrafo {
+    color: #bbf2ff;
 }
