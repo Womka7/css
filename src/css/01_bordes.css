@@ -1,0 +1,65 @@
+#parrafo-de-prueba {
+  background-color: black;
+  /* 
+  background: linear-gradient(to top, blue, yellow);
+
+background: linear-gradient(to top, blue, yellow);
+ */
+  color: white;
+  /* #FFFFF */
+  /* border: 20px solid red; */
+  border: 20px dashed red;
+}
+p.dotted {
+  border-style: dotted;
+}
+
+p.dashed {
+  border-style: dashed;
+}
+
+p.solid {
+  border-style: solid;
+}
+
+p.double {
+  border-style: double;
+}
+
+p.groove {
+  border-style: groove;
+}
+
+p.ridge {
+  border-style: ridge;
+}
+
+p.inset {
+  border-style: inset;
+}
+
+p.outset {
+  border-style: outset;
+}
+
+p.none {
+  border-style: none;
+}
+
+p.hidden {
+  border-style: hidden;
+}
+
+p.mix {
+  border-style: dotted dashed solid double;
+}
+
+header{
+  /*
+  */
+  border: 20px dotted blue;
+  border-top-width: 50px;
+  border-right-width:40px ;
+  border-bottom-width:30px ;
+  border-left-width:20px ;
+}
