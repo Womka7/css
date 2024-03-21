@@ -1,0 +1,33 @@
+/* * {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+} */
+
+section {
+    /*
+    El height de 100vh LO QUE HACE ES ABARCAR TODA LA PAGINA
+    height: 100vh;
+    */
+    padding: 10px 0px;
+    border: 20px solid white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+img {
+
+    height: 150px;
+    width: 100px;
+    border: 12px solid aquamarine;
+
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
