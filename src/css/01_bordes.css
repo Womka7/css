@@ -1,17 +1,19 @@
 #parrafo-de-prueba {
-  background: black;
   /* 
   background: linear-gradient(to top, blue, yellow);
 
 background: linear-gradient(to top, blue, yellow);
  */
-  color: white;
-  border: 2px solid red;
   /* #FFFFF */
   /* border: 20px solid red; */
   /* border: 20px dashed red; */
-  border-width: 50px 40px 30px 20px;
+  background: black;
+  color: white;
+  border: 2px solid red;
+  /* border-width: 50px 40px 30px 20px; */
+  border-radius: 20px;
 }
+
 p.dotted {
   border-style: dotted;
 }
@@ -65,6 +67,7 @@ header {
   border-bottom-width: 30px;
   border-left-width: 20px;
 }
+
 /* OTRAS PROPIEDADES DE BORDES */
 /* La propiedad border-width con tamaño especifico*/
 p.uno {
@@ -84,3 +87,50 @@ p.tres {
   border-width: 25px 10px 4px 35px;
   /* 25px top, 10px right, 4px bottom and 35px left */
 }
+
+
+.galeria {
+  padding: 4px;
+}
+
+#brasil {
+  height: 327px;
+  width: 467px;
+  border-style: dotted;
+  border-color: blueviolet;
+  border-width: 15px 20px 25px 30px;
+}
+
+#colombia {
+  height: 327px;
+  width: 467px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 15px 20px 25px 30px;
+}
+
+#argentina {
+  height: 327px;
+  width: 467px;
+  border-style: dashed;
+  border-color: green;
+  border-width: 15px 20px 25px 30px;
+}
+
+#mexico {
+  height: 327px;
+  width: 467px;
+
+  border: double brown;
+  border-width: 5px 10px 35px 30px;
+}
+
+#peru {
+  height: 327px;
+  width: 467px;
+  border-top:15px groove  rebeccapurple;
+  border-bottom:55px double olive;
+  border-right:100px dashed lawngreen;
+  border-left:9px dotted aquamarine;
+}
+
